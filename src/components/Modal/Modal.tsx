@@ -1,7 +1,7 @@
 import { AnimatePresence, motion } from 'framer-motion';
 import styles from './Modal.module.scss';
 import { Button } from '../UI/Button';
-import { IconClose } from '../UI/IconClose';
+import { IconClose } from '../UI/Icons/IconClose';
 import modalImg from '../../images/modal-img.svg';
 
 type Props = {

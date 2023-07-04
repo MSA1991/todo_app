@@ -1,7 +1,7 @@
 import { Filter } from '../../types/Filter';
 import { Button } from '../UI/Button';
-import { IconClearCompleted } from '../UI/IconClearCompleted';
-import { IconToggleAll } from '../UI/IconToggleAll';
+import { IconClearCompleted } from '../UI/Icons/IconClearCompleted';
+import { IconToggleAll } from '../UI/Icons/IconToggleAll';
 import styles from './TodoActions.module.scss';
 
 type Props = {

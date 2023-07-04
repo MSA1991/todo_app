@@ -2,8 +2,8 @@ import { useEffect, useState, useRef } from 'react';
 import { AnimatePresence, Reorder, motion } from 'framer-motion';
 import { Todo } from '../../types/Todo';
 import { Filter } from '../../types/Filter';
-import { IconDelete } from '../UI/IconDelete';
-import { IconEdit } from '../UI/IconEdit';
+import { IconDelete } from '../UI/Icons/IconDelete';
+import { IconEdit } from '../UI/Icons/IconEdit';
 import { Checkbox } from '../UI/Checkbox';
 import styles from './TodoItem.module.scss';
 

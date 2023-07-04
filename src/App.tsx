@@ -13,7 +13,7 @@ import styles from './App.module.scss';
 
 export const App: React.FC = () => {
   const [todos, setTodos] = useLocalStorageTodos();
-  const [visibleTodos, setVisibleTodos] = useState<Todo[] | []>([]);
+  const [visibleTodos, setVisibleTodos] = useState<Todo[]>([]);
   const [filter, setFilter] = useState<Filter>(Filter.All);
   const [isOpenModal, setIsOpenModal] = useState(false);
 

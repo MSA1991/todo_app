@@ -15,7 +15,7 @@ export const ProgressBar: React.FC<Props> = ({ todos, setIsOpenModal }) => {
 
   const progress = useMemo(() => (
     Math.round((numberOfCompleted * 100) / todos.length) || 0
-  ), [numberOfCompleted]);
+  ), [numberOfCompleted, todos]);
 
   const colorIndex = Math.round(progress / 20);
   const fillColor = COLORS[colorIndex - 1];

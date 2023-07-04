@@ -1,7 +1,7 @@
 import { useState, useRef } from 'react';
 import { Button } from '../UI/Button';
 import styles from './TodoForm.module.scss';
-import { IconAdd } from '../UI/IconAdd';
+import { IconAdd } from '../UI/Icons/IconAdd';
 
 type Props = {
   onAddTodo: (text: string) => void;
